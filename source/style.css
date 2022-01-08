@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+/* INDEX */
+
+#avt {
+    height: 40px;
+}
+
+.dropdown-menu>a:hover {
+    background-color: #ccc;
+    transition: 0.3s;
+}
+
+.dropdown-menu {
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#mySidenav a {
+    position: absolute;
+    left: -150px;
+    transition: 0.5s;
+    padding: 10px;
+    width: 200px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 0 5px 5px 0;
+
+}
+
+#mySidenav a:hover {
+    left: 0;
+    color: white;
+    text-align: right;
+    transition: 0.5s;
+}
+
+#laptrinh {
+    top: 20px;
+    background-color: #04AA6D;
+    color: #04AA6D;
+    ;
+}
+
+#tienganh {
+    top: 80px;
+    background-color: #2196F3;
+    color: #2196F3;
+
+}
+
+#freeapp {
+    top: 140px;
+    background-color: #f44336;
+    color: #f44336;
+
+}
+
+#costapp {
+    top: 200px;
+    background-color: #555;
+    color: #555;
+}
+
+@media screen and (max-width: 700px) {
+    #mySidenav {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    #mySidenav a {
+        float: left;
+    }
+
+    div.content {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #mySidenav a {
+        text-align: center;
+        float: none;
+    }
+}
+
+.footer{
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+
+/* HOME */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+}
+
+.card > img{
+    height: 175px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top:hover{
+    filter: brightness(75%);
+    transition: 0.5s;
+
+}
+
+.app_index a {
+    padding: 16px;
+    text-decoration: none;
+}
+
+
+
+/* detail_app.php */
+#container_detail {
+    width: 70%;
+    margin: auto;
+}
+
+#header_detail {
+    margin: 30px 0px;
+}
+
+#icon {
+    padding: 0;
+    margin: 0;
+}
+
+#icon>img {
+    margin: 0;
+    width: 100%;
+}
+
+.name {
+    font-size: 30px;
+}
+
+.dev_kind {
+    font: 14px;
+}
+
+#download_btn {
+    width: 100%;
+}
+
+#detail {
+    margin-top: 20px;
+    width: 70ch;
+    padding: 0 18px;
+}
+
+#showComments {
+    margin: 20px;
+}
+
+.checked {
+    color: orange;
+}
+
+/* Profile container */
+.profile {
+    margin: 20px 0;
+}
+
+/* Profile sidebar */
+.profile-sidebar {
+    padding: 20px 0 10px 0;
+    background: #fff;
+}
+
+.profile-userpic img {
+    float: none;
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    border-radius: 50% !important;
+}
+
+.profile-usertitle {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile-usertitle-name {
+    color: #5a7391;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.profile-usertitle-job {
+    text-transform: uppercase;
+    color: #5b9bd1;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+/* Profile Content */
+.profile-content {
+    padding: 20px;
+    background: #fff;
+    min-height: 460px;
+}

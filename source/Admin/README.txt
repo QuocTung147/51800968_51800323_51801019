@@ -1,0 +1,1 @@
+1. IMPORT thecao.sql VÀO TRONG DB MỚI CHẠY ĐƯỢC
